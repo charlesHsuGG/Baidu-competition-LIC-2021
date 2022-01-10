@@ -1,0 +1,5 @@
+models/*
+predict/*
+resources/*
+submit/*
+__pycache__/*.pyc

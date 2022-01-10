@@ -1,0 +1,38 @@
+ernie-base-Expirement1:
+    LMModel: nghuyong/ernie-1.0
+    Enum: Avg loss=0.18, Avg acc score=0.93, Avg precision score=0.95, Avg recall score=0.88, Avg f1 score=0.87, Avg eval loss=0.70, Avg eval acc=0.84, Avg eval precision=0.90, Avg eval recall=0.76, Avg eval f1=0.74, Epoch=20, batchSize=32, learning_rate=5e-5, weight_decay=0.01
+    Trigger: Avg loss=0.16, Avg acc score=0.94, Avg precision score=0.65, Avg recall score=0.53, Avg f1 score=0.56, Avg eval loss=0.25, Avg eval acc=0.92, Avg eval precision=0.67, Avg eval recall=0.63, Avg eval f1=0.65, Epoch=20, batchSize=32, learning_rate=5e-5, weight_decay=0.01
+    Role:  Avg loss=0.01, Avg acc score=1.00, Avg precision score=0.88, Avg recall score=0.90, Avg f1 score=0.86, Avg eval loss=0.01, Avg eval acc=1.00, Avg eval precision=0.90, Avg eval recall=0.88, Avg eval f1=0.89, Epoch=20, batchSize=32, learning_rate=5e-5, weight_decay=0.01
+
+ernie-base-Expirement1.1:
+    Trigger_M: Avg loss=0.00, Avg acc score=1.00, Avg precision score=1.00, Avg recall score=1.00, Avg f1 score=1.00, Avg eval loss=0.00, Avg eval acc=1.00, Avg eval precision=1.00, Avg eval recall=1.00, Avg eval f1=1.00, Epoch=20, batchSize=32, learning_rate=5e-5, weight_decay=0.01
+    Role_M:  Avg loss=0.01, Avg acc score=1.00, Avg precision score=0.94, Avg recall score=0.97, Avg f1 score=0.95, Avg eval loss=0.00, Avg eval acc=1.00, Avg eval precision=0.97, Avg eval recall=0.97, Avg eval f1=0.97, Epoch=20, batchSize=32, learning_rate=5e-5, weight_decay=0.01
+    
+ernie-base-Expirement1.2:
+    Role_MT1:  Avg loss=0.01, Avg acc score=1.00, Avg precision score=0.93, Avg recall score=0.96, Avg f1 score=0.94, Avg eval loss=0.00, Avg eval acc=1.00, Avg eval precision=0.96, Avg eval recall=0.96, Avg eval f1=0.96, Epoch=20, batchSize=32, learning_rate=5e-5, weight_decay=0.01
+    
+ernie-base-Expirement1.3:
+    Role_MT2:  Avg loss=0.01, Avg acc score=1.00, Avg precision score=0.94, Avg recall score=0.97, Avg f1 score=0.95, Avg eval loss=0.00, Avg eval acc=1.00, Avg eval precision=0.97, Avg eval recall=0.97, Avg eval f1=0.97, Epoch=20, batchSize=32, learning_rate=5e-5, weight_decay=0.01
+
+roberta-chinese-base-Expirement2:
+    LMModel: hfl/chinese-roberta-wwm-ext
+    Enum: Avg loss=0.17, Avg acc score=0.94, Avg precision score=0.96, Avg recall score=0.90, Avg f1 score=0.89, Avg eval loss=0.56, Avg eval acc=0.89, Avg eval precision=0.91, Avg eval recall=0.82, Avg eval f1=0.81, Epoch=20, batchSize=32, learning_rate=2e-5, weight_decay=0.01
+    Trigger: Avg loss=0.01, Avg acc score=1.00, Avg precision score=0.88, Avg recall score=0.89, Avg f1 score=0.87, Avg eval loss=0.01, Avg eval acc=1.00, Avg eval precision=0.91, Avg eval recall=0.88, Avg eval f1=0.89, Epoch=20, batchSize=32, learning_rate=2e-5, weight_decay=0.01
+    Role: Avg loss=0.19, Avg acc score=0.93, Avg precision score=0.61, Avg recall score=0.51, Avg f1 score=0.54, Avg eval loss=0.23, Avg eval acc=0.93, Avg eval precision=0.73, Avg eval recall=0.62, Avg eval f1=0.67, Epoch=20, batchSize=32, learning_rate=2e-5, weight_decay=0.01
+    
+    
+roberta-chinese-base-Expirement2.1:
+    Trigger_M: Avg loss=0.00, Avg acc score=1.00, Avg precision score=1.00, Avg recall score=1.00, Avg f1 score=1.00, Avg eval loss=0.00, Avg eval acc=1.00, Avg eval precision=1.00, Avg eval recall=1.00, Avg eval f1=1.00, Epoch=20, batchSize=32, learning_rate=2e-5, weight_decay=0.01
+    Role_M:  Avg loss=0.01, Avg acc score=1.00, Avg precision score=0.94, Avg recall score=0.98, Avg f1 score=0.96, Avg eval loss=0.00, Avg eval acc=1.00, Avg eval precision=0.97, Avg eval recall=0.97, Avg eval f1=0.97, Epoch=20, batchSize=32, learning_rate=2e-5, weight_decay=0.01
+
+
+roberta-chinese-large-Expirement3:
+    LMModel: hfl/chinese-roberta-wwm-ext-large
+    Enum: Avg loss=0.09, Avg acc score=0.97, Avg precision score=0.98, Avg recall score=0.96, Avg f1 score=0.95, Avg eval loss=0.57, Avg eval acc=0.89, Avg eval precision=0.89, Avg eval recall=0.85, Avg eval f1=0.86, Epoch=20, batchSize=16, learning_rate=2e-5, weight_decay=0.01
+    Trigger: Avg loss=0.00, Avg acc score=1.00, Avg precision score=0.94, Avg recall score=0.93, Avg f1 score=0.93, Avg eval loss=0.02, Avg eval acc=1.00, Avg eval precision=0.89, Avg eval recall=0.86, Avg eval f1=0.88,Epoch=20, batchSize=16, learning_rate=5e-5, weight_decay=0.01
+    Role: Avg loss=0.12, Avg acc score=0.95, Avg precision score=0.71, Avg recall score=0.57, Avg f1 score=0.63, Avg eval loss=0.25, Avg eval acc=0.93, Avg eval precision=0.72, Avg eval recall=0.63, Avg eval f1=0.67, Epoch=20, batchSize=8, learning_rate=5e-5, weight_decay=0.01
+    
+    
+roberta-chinese-large-Expirement3:
+    Trigger_M: Avg loss=0.00, Avg acc score=1.00, Avg precision score=1.00, Avg recall score=1.00, Avg f1 score=1.00, Avg eval loss=0.00, Avg eval acc=1.00, Avg eval precision=1.00, Avg eval recall=1.00, Avg eval f1=1.00, Epoch=20, batchSize=16, learning_rate=2e-5, weight_decay=0.01
+    Role_M:  Avg loss=0.01, Avg acc score=1.00, Avg precision score=0.94, Avg recall score=0.98, Avg f1 score=0.96, Avg eval loss=0.00, Avg eval acc=1.00, Avg eval precision=0.97, Avg eval recall=0.97, Avg eval f1=0.97, Epoch=20, batchSize=16, learning_rate=2e-5, weight_decay=0.01
